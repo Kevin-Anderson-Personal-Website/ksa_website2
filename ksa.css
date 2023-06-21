@@ -64,7 +64,7 @@
     position: absolute;
   }
 
-  .aboutheader {
+.aboutheader {
     color: darkgreen;
     font: size 80%;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -80,7 +80,7 @@
 
   }
 
-  .aboutsubhockey {
+.aboutsubhockey {
     color: darkgreen;
     font: size 80%;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -89,13 +89,13 @@
     height: 5%;
     width: 10%;
     display: block;
-    margin: 5% 0% 0% 2%;
+    margin: 7% 0% 0% 2%;
     border: 0.5rem solid darkgreen;
     border-radius: 20px;
     position: absolute;
   }
 
-  .abouttexthockey {
+.abouttexthockey {
     color: darkgreen;
     font: size 80%;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -110,6 +110,18 @@
     position: absolute;
   }
 
+#hockeyIMG {
+    position: absolute;
+    width: 190px;
+    /* width: 40%; */
+    height: 250px;
+    /* height: 20%; */
+    display: block;
+    margin-left: 2%;
+    margin-right: 0px;
+    margin-top: 180px;
+  }
+
   .aboutsubfilmmaking {
     color: darkgreen;
     font: size 80%;
@@ -119,7 +131,7 @@
     height: 5%;
     width: 10%;
     display: block;
-    margin: 25% 0% 0% 2%;
+    margin: 27% 0% 0% 2%;
     border: 0.5rem solid darkgreen;
     border-radius: 20px;
     position: absolute;
@@ -140,6 +152,18 @@
     position: absolute;
   }
 
+  #filmIMG {
+    position: absolute;
+    width: 190px;
+    /* width: 40%; */
+    height: 250px;
+    /* height: 20%; */
+    display: block;
+    margin-left: 2%;
+    margin-right: 0px;
+    margin-top: 510px;
+  }
+
   .aboutsubcooking {
     color: darkgreen;
     font: size 80%;
@@ -155,6 +179,33 @@
     position: absolute;
   }
 
+  .abouttextcooking {
+    color: darkgreen;
+    font: size 80%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    background-color: rgb(228, 228, 228);
+    height: 20%;
+    width: 80%;
+    display: block;
+    margin: 50% 0% 0% 15%;
+    border: 0.5rem solid darkgreen;
+    border-radius: 20px;
+    position: absolute;
+  }
+
+  #pizzaIMG {
+    position: absolute;
+    width: 190px;
+    /* width: 40%; */
+    height: 200px;
+    /* height: 20%; */
+    display: block;
+    margin-left: 2%;
+    margin-right: 0px;
+    margin-top: 895px;
+  }
+
   .aboutsubfamily {
     color: darkgreen;
     font: size 80%;
@@ -164,12 +215,35 @@
     height: 5%;
     width: 10%;
     display: block;
-    margin: 80% 0% 0% 2%;
+    margin: 70% 0% 0% 2%;
     border: 0.5rem solid darkgreen;
     border-radius: 20px;
     position: absolute;
   }
 
-  .abouttext {
+  .abouttextfamily {
+    color: darkgreen;
+    font: size 80%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    background-color: rgb(228, 228, 228);
+    height: 20%;
+    width: 80%;
+    display: block;
+    margin: 70% 0% 0% 15%;
+    border: 0.5rem solid darkgreen;
+    border-radius: 20px;
+    position: absolute;
+  }
 
+  #familyIMG {
+    position: absolute;
+    width: 190px;
+    /* width: 40%; */
+    height: 140px;
+    /* height: 20%; */
+    display: block;
+    margin-left: 2%;
+    margin-right: 0px;
+    margin-top: 1220px;
   }
