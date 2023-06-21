@@ -1,0 +1,24 @@
+body {
+
+}
+
+#headertitle {
+    text-align: left; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: darkgreen; font-size: 50pt; margin: 10px;;
+}
+
+#leftnav {
+    text-align: left; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: darkgreen;
+}
+
+#rightnav {
+    text-align: right; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: darkgreen;
+}
+
+#centerboxID {
+  background-color: rgba(12, 117, 45, 0.272);
+  border: 3px solid gray;
+  height: 100%;
+  width: 200px;
+  border-radius: 8px;
+  margin: 10px;
+}
