@@ -1,24 +1,50 @@
-body {
 
+
+#halfdome {
+  position: absolute;
+  /* width: 600px; */
+  width: 40%;
+  /* height: 450px; */
+  height: 20%;
+  display: block;
+  margin-left: 350px;
+  margin-right: 0px;
+  margin-top: 10%;
 }
 
-#headertitle {
-    text-align: left; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: darkgreen; font-size: 50pt; margin: 10px;;
+.headertitle {
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: darkgreen;
+  font-size: 50pt;
+  margin: 10px;
 }
 
-#leftnav {
-    text-align: left; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: darkgreen;
+.toplinks {
+  text-align: right;
 }
 
-#rightnav {
-    text-align: right; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: darkgreen;
-}
-
-#centerboxID {
+.centerboxID {
   background-color: rgba(12, 117, 45, 0.272);
   border: 3px solid gray;
   height: 100%;
   width: 200px;
   border-radius: 8px;
   margin: 10px;
+}
+
+
+.quote {
+  color: darkgreen;
+  font: size 80%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: rgba(228, 228, 228, 0.722);
+  height: 10%;
+  width: 50%;
+  display: block;
+  margin: 2% 10% 10% 25%;
+  border: 0.5rem solid darkgreen;
+  border-radius: 20px;
+  position: absolute;
 }
