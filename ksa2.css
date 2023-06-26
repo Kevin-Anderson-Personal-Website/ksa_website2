@@ -63,8 +63,7 @@ p {
 }
 
 .about-sub {
-display: flex;
-
+  display: flex;
   height: 300px;
   width: 1200px;
   background-color: rgb(195, 205, 198);
@@ -83,35 +82,11 @@ h1 {
 .IMG {
   position: absolute;
   float: right;
-  height: 250px;
+  height: 300px;
   width: auto;
-  /* justify-content: right; */
-  /* align-items: right; */
   margin-left: 1220px;
   margin-bottom: 0px;
 }
-
-/* #filmIMG {
-    height: 250px;
-    width: auto;
-    margin-left: 1220px;
-    margin-bottom: 50px;
-
-}
-
-#pizzaIMG {
-    height: 250px;
-    width: auto;
-    margin-left: 1220px;
-    margin-bottom: 50px;
-}
-
-#familyIMG {
-    height: 250px;
-    width: auto;
-    margin-left: 1220px;
-    margin-bottom: 50px;
-} */
 
 .bottomform {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
