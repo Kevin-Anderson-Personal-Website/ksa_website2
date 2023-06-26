@@ -1,23 +1,23 @@
 body {
-    background-color: rgb(107, 138, 112);
-  }
+  background-color: rgb(107, 138, 112);
+}
 
 p {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(107, 138, 112);
-    font-size: 18pt;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(107, 138, 112);
+  font-size: 18pt;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .headertitle {
-    text-align: left;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(195, 205, 198);
-    font-size: 30pt;
-    margin: 10px;
-  }
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(195, 205, 198);
+  font-size: 30pt;
+  margin: 10px;
+}
 
 /* .small {
     height: 50px;
@@ -25,67 +25,95 @@ p {
   } */
 
 .toplinks {
-    text-align: right;
-  }
+  text-align: right;
+}
 
 .container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
 .main {
-    height: 150px;
-    width: 1000px;
-    background-color: rgb(195, 205, 198);
-    margin: 10px;
-  }
+  height: 150px;
+  width: 1000px;
+  background-color: rgb(195, 205, 198);
+  margin: 10px;
+}
 
 #halfdome {
-    height: 5%;
-    width: auto;
+  height: 5%;
+  width: auto;
 }
 
 #quote {
-    font-size: 24pt;
+  font-size: 24pt;
 }
 
 .container-about {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    
-  }
-
-.about-sub {
-    height: 300px;
-    width: 1200px;
-    background-color: rgb(195, 205, 198);
-    margin: 10px;
-  }
-
-  h1 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(107, 138, 112);
-    font-size: 18pt;
-    margin-left: 20px;
-  }
-
-#hockeyIMG {
-    height: 100px;
-    width: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px;
+  align-items: left;
+  margin-top: 10px;
 }
 
-#filmIMG {
-    height: 100px;
-    width: 100px;
+.about-sub {
+display: flex;
+
+  height: 300px;
+  width: 1200px;
+  background-color: rgb(195, 205, 198);
+  margin: 10px;
+  justify-content: left;
+  align-items: left;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(107, 138, 112);
+  font-size: 18pt;
+  margin-left: 20px;
+}
+
+.IMG {
+  position: absolute;
+  float: right;
+  height: 250px;
+  width: auto;
+  /* justify-content: right; */
+  /* align-items: right; */
+  margin-left: 1220px;
+  margin-bottom: 0px;
+}
+
+/* #filmIMG {
+    height: 250px;
+    width: auto;
+    margin-left: 1220px;
+    margin-bottom: 50px;
+
+}
+
+#pizzaIMG {
+    height: 250px;
+    width: auto;
+    margin-left: 1220px;
+    margin-bottom: 50px;
 }
 
 #familyIMG {
-    height: 100px;
-    width: 100px;
+    height: 250px;
+    width: auto;
+    margin-left: 1220px;
+    margin-bottom: 50px;
+} */
+
+.bottomform {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(195, 205, 198);
 }
