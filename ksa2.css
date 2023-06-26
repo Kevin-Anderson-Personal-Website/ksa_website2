@@ -1,9 +1,14 @@
 body {
   background-color: rgb(107, 138, 112);
   background-image: url(tile2.jpeg);
-
   background-size: 100%;
 }
+    @media screen and (min-width: 400px) {
+    body {
+      background-color: darkgreen;
+    }
+}
+
 
 p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -14,7 +19,7 @@ p {
   margin-right: 10px;
 }
 
-.headertitle{
+.headertitle {
   text-align: left;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(107, 138, 112);
@@ -23,13 +28,9 @@ p {
   margin: 10px;
 }
 
-/* .small {
-    height: 50px;
-    width: 50px;
-  } */
-
 .toplinks {
   text-align: right;
+  font-size: large;
 }
 
 .container {
@@ -98,7 +99,8 @@ h1 {
 }
 
 a:hover {
-    background-color: aliceblue;
-    transition: .7s;
+  background-color: aliceblue;
+  transition: 0.7s;
+  font-size: 18pt;
 }
 
