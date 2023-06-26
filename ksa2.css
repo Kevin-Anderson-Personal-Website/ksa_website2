@@ -1,5 +1,8 @@
 body {
   background-color: rgb(107, 138, 112);
+  background-image: url(tile2.jpeg);
+
+  background-size: 100%;
 }
 
 p {
@@ -11,10 +14,11 @@ p {
   margin-right: 10px;
 }
 
-.headertitle {
+.headertitle{
   text-align: left;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(195, 205, 198);
+  color: rgb(107, 138, 112);
+  background-color: rgb(195, 205, 198);
   font-size: 30pt;
   margin: 10px;
 }
@@ -63,8 +67,7 @@ p {
 }
 
 .about-sub {
-display: flex;
-
+  display: flex;
   height: 300px;
   width: 1200px;
   background-color: rgb(195, 205, 198);
@@ -83,37 +86,19 @@ h1 {
 .IMG {
   position: absolute;
   float: right;
-  height: 250px;
+  height: 300px;
   width: auto;
-  /* justify-content: right; */
-  /* align-items: right; */
   margin-left: 1220px;
   margin-bottom: 0px;
 }
-
-/* #filmIMG {
-    height: 250px;
-    width: auto;
-    margin-left: 1220px;
-    margin-bottom: 50px;
-
-}
-
-#pizzaIMG {
-    height: 250px;
-    width: auto;
-    margin-left: 1220px;
-    margin-bottom: 50px;
-}
-
-#familyIMG {
-    height: 250px;
-    width: auto;
-    margin-left: 1220px;
-    margin-bottom: 50px;
-} */
 
 .bottomform {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(195, 205, 198);
 }
+
+a:hover {
+    background-color: aliceblue;
+    transition: .7s;
+}
+
