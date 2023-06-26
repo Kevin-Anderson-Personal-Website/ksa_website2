@@ -9,6 +9,9 @@ body {
     }
 }
 
+nav {
+    background: rgb(107, 138, 112)
+}
 
 p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
