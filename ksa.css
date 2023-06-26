@@ -1,8 +1,10 @@
 #halfdome {
   position: absolute;
-  width: 500px;
+  max-width: 100%;
+  height: auto;
+  width: 480px;
   /* width: 40%; */
-  height: 300px;
+  /* height: 300px; */
   /* height: 20%; */
   display: block;
   margin-left: 500px;
@@ -374,4 +376,10 @@
   margin-left: 3%;
   margin-right: 0px;
   margin-top: 815px;
+}
+
+tile {
+  position:relative;
+  max-width: 100%;
+  height: auto;
 }
