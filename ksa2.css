@@ -23,13 +23,9 @@ p {
   margin: 10px;
 }
 
-/* .small {
-    height: 50px;
-    width: 50px;
-  } */
-
 .toplinks {
   text-align: right;
+  font-size: medium;
 }
 
 .container {
@@ -94,11 +90,12 @@ h1 {
 
 .bottomform {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(195, 205, 198);
+  color: white;
 }
 
 a:hover {
-    background-color: aliceblue;
+    background-color: whitesmoke;
     transition: .7s;
+    font-size: large;
 }
 
